@@ -27,7 +27,7 @@ func generate(passwordLength int, includeNumbersFlag bool, includeSymbolsFlag bo
 		chars += "!@#$%^&*()_+{}[]:;<>,.?/~`"
 	}
 	if includeUppercaseFlag || passwordType == int(Random) {
-		chars += "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+		chars += "ABCDEFGHIJKLMNOPQRSTUVXYZ"
 	}
 
 	if passwordType == int(Pin) {
