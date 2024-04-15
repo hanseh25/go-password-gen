@@ -1,5 +1,5 @@
 package passlock
 
 func GeneratePassword() string {
-	return "password"
+	return "abc123"
 }
